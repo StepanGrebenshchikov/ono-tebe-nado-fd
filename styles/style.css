@@ -3,8 +3,6 @@
     height: 293px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    grid-template-areas:
-    'nav logo address';
     align-items: center;
 }
 
@@ -19,13 +17,8 @@
     font-style: normal;
 }
 
-.header__menu {
-    grid-area: 'nav';
-}
-
 .nav_header {
     margin-left: 50px;
-    margin-bottom: 0px;
 }
 
 .header_info_size {
